@@ -1,0 +1,35 @@
+body
+{   background-position: center;
+	background-color:rgb(24, 219, 226);
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+h1{
+	font-size: 60px;
+	background-color: rgb(247, 214, 193);
+	background-position: center;
+	padding-left: 25%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-radius: 30px;
+}
+
+h2
+{
+	color:navy;
+    
+	margin-left:20 px;
+}
+
+.description{  background-color: rgb(197, 210, 245);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 5px;
+	border-radius: 18px;
+	border-color: rgb(36, 8, 14);
+}
+
+.center{
+	padding-left: 5%;
+}
