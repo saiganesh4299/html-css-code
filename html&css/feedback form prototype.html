@@ -1,0 +1,48 @@
+<html>
+<meta charset="UTF-8">
+<title>CUSTOMER FEEDBACK FORM</title>
+<h1>Customer Details</h1>
+<h2>
+<P><em>"Hello Customers"<em>We hope that you are doing well in these tough times of pandemic.<br>Give us a signal by clicking the button below to let us know that u are keeping well</p>
+<input type="button" onclick="alert('Fill the below feedback form,Thank you:)')" value="click me!">
+<link rel="stylesheet" href="stylepeer.css">
+<p>Help us by giving a quality feedback  so that we can improve our service.</p>
+<form>
+<label for="Customer Name">Customer Name:</label><br>
+<input type="text" id="Customer Name" Name="Customer Name" onblur="Myfunction()"><br>
+<label for="Contact Number">Contact Number:</label><br>
+<input type="number" id="Contact number" Value="Contact number"><br>
+<script>
+function Myfunction()
+{
+var x=document.getElementById("Customer Name");
+if(x='')
+{
+alert('Filling the Customer name field is mandatory';
+}
+}
+</script>
+<label for="City">City name:</label><br>
+<input type="Text" id="City" Name="City"><br>
+<P>What problems did you face while utilizing our product please put the description in the below textbox?</p>
+<label for="Problem Description">Problem description:</label><br>
+<input type="text" id="Problem Description" Name="Problem Description"><br>
+<p>Are you satisfied with the warranty service of our company?</p>
+<label for ="field 1">Yes</label><br>
+<input type="checkbox" id="field 1" name="field 1" value="yes"><br>
+<label for ="field 2">no</label><br>
+<input type="checkbox" id="field 2" name="field 2" value="no"><br>
+<p>Review us in terms of quality of our products and repairing service we provide(1-poor and 5-excellent)</p>
+<label for="Rating">Rate us:</label><br>
+<input type="number" id="Rating" Value="Rating"><br>
+<p>Any suggestions you want to give?</p>
+<label for="Suggestions">Suggestions:</label><br>
+<input type="text" id="suggestions" Name="suggestions"><br>
+</form>
+
+
+
+
+
+
+
